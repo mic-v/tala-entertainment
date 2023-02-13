@@ -1,0 +1,10 @@
+---
+label: Blog
+hide_body: true
+fields:
+- name: asdf
+  type: text
+  config:
+    required: false
+  label: asdf
+  description: taserf
