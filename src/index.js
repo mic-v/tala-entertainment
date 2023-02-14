@@ -38,11 +38,11 @@ window.onscroll = function (event) {
     if(scroll < 25) {
         if(!navBar.classList.contains('bg-transparent')) {
             navBar.classList.add('bg-transparent');
-            navBar.classList.remove('bg-slate-900');
+            navBar.classList.remove('bg-indigo-900');
         }
     } else {
-        if(!navBar.classList.contains('bg-slate-900')) {
-            navBar.classList.add('bg-slate-900');
+        if(!navBar.classList.contains('bg-indigo-900')) {
+            navBar.classList.add('bg-indigo-900');
             navBar.classList.remove('bg-transparent');
         }
     }
