@@ -1,7 +1,13 @@
 import './styles/main.css';
 
 import logo from './assets/logo.jpg';
-import landingIMG from './assets/landingimage.jpg';
+import landingImg from './assets/heroimage.JPG';
+import flowImg from './assets/FlowG.PNG';
+import skustaImg from './assets/SkustaClee.PNG';
+import jroaImg from './assets/JRoa.PNG';
+import dianaImg from './assets/Diana.PNG';
+import alvaroImg from './assets/DJAlvaro.jpg';
+import bambooImg from './assets/bambooposter.jpg';
 
 
 function loadImages() {
@@ -13,7 +19,16 @@ function loadImages() {
     //IMAGES
 
     const landingImage = document.getElementById('landingImage');
-    landingImage.src = landingIMG;
+    landingImage.src = landingImg;
+
+    const skustaImage = document.getElementById('skustaImage');
+    skustaImage.src = skustaImg;
+
+    const jroaImage = document.getElementById('jroaImage');
+    jroaImage.src = jroaImg;
+
+    const flowImage = document.getElementById('flowImage');
+    flowImage.src = flowImg;
 
 }
 
